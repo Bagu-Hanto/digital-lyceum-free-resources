@@ -14,6 +14,11 @@ A drop-in study system for any certification or exam. Hand this file to your AI 
 - `ai-tutor-workflow.md` — paste into any AI chat
 - `ai-tutor-workflow.pdf` — formatted download
 
+### AIOS — AI Operating System Framework — *COMING SOON*
+A personal AI operating system built on one principle: structure does the work that code usually does. Instead of prompt chains or multi-agent frameworks, you organize your context as a filesystem hierarchy — numbered folders for life domains, plain markdown files for prompts and memory, local scripts for the mechanical work. One AI agent reading the right files at the right moment does what most people think requires a complex system to pull off.
+
+Includes the full 3-layer architecture (OS layer, content layer, infrastructure layer), the intent translation framework for closing the gap between what you want and what AI can execute, and a starter kit based on a real implementation that has been running daily since early 2026.
+
 ---
 
 ## Coming Soon
