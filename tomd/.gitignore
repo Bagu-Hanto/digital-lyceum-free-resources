@@ -1,0 +1,8 @@
+# Build / packaging
+*.egg-info/
+__pycache__/
+.venv/
+
+# Quick Action / CLI writes markdown beside source files — keep generated
+# conversions of the test fixtures out of git.
+tests/fixtures/*.md

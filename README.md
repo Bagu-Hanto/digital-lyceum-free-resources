@@ -14,6 +14,13 @@ A drop-in study system for any certification or exam. Hand this file to your AI 
 - `ai-tutor-workflow.md` — paste into any AI chat
 - `ai-tutor-workflow.pdf` — formatted download
 
+### tomd — Document to Token-Lean Markdown
+A command-line tool that converts `.pdf`, `.docx`, `.pptx`, and `.xlsx` files into token-efficient Markdown optimized for LLM input. Every conversion produces a faithful render and a stripped-down `_lean.md` version that costs a fraction of the tokens to process. Works on Linux and macOS.
+
+Originally created by [Ari Evergreen](https://www.skool.com/@ari-evergreen?g=cliefnotes). Cross-platform port by Joseph Kemp — swapped Apple Vision OCR for Tesseract + pdf2image so it runs on Linux.
+
+- `tomd/` — full source, README, and install instructions
+
 ### AIOS — AI Operating System Framework — *COMING SOON*
 A personal AI operating system built on one principle: structure does the work that code usually does. Instead of prompt chains or multi-agent frameworks, you organize your context as a filesystem hierarchy — numbered folders for life domains, plain markdown files for prompts and memory, local scripts for the mechanical work. One AI agent reading the right files at the right moment does what most people think requires a complex system to pull off.
 

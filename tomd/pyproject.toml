@@ -1,0 +1,27 @@
+[project]
+name = "tomd"
+version = "0.1.0"
+description = "Document -> token-efficient Markdown converter"
+requires-python = ">=3.11"
+dependencies = [
+    "markitdown[all]>=0.0.1a3",
+    "pikepdf>=9.0",
+    "msoffcrypto-tool>=5.4",
+    "pytesseract>=0.3",
+    "pdf2image>=1.17",
+    "click>=8.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "pytest-cov>=5.0"]
+
+[project.scripts]
+tomd = "tomd.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tomd*"]
